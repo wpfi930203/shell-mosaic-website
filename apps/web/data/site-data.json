@@ -1,0 +1,1646 @@
+{
+  "settings": {
+    "brandName": "Lansic Tiles",
+    "logoType": "image",
+    "logoText": "Lansic",
+    "logoPath": "/uploads/33e2e93c-a7f6-426f-af36-bc464d99e87a.png",
+    "logoWidth": 160,
+    "logoHeight": 56,
+    "storeName": "Lansic Tiles",
+    "storeNameTranslations": {
+      "en": "Lansic Tiles",
+      "fr": "Lansic Tiles",
+      "pt": "Lansic Tiles",
+      "de": "Lansic Tiles",
+      "ja": "Lansic Tiles",
+      "zh": "Lansic Tiles"
+    },
+    "storeNameFontFamily": "Cormorant Garamond",
+    "storeNameFontSize": 28,
+    "storeNameColor": "#1f3c34",
+    "defaultLocale": "en",
+    "defaultCurrency": "USD",
+    "enabledLocales": [
+      "en",
+      "fr",
+      "pt",
+      "de",
+      "ja",
+      "zh"
+    ],
+    "enabledCurrencies": [
+      "USD",
+      "EUR"
+    ],
+    "paypalEnabled": true,
+    "creditCardEnabled": true,
+    "paypalMerchantEmail": "",
+    "paypalClientId": "",
+    "paypalClientSecret": "",
+    "freeShippingThreshold": 100,
+    "vatLabel": "VAT included",
+    "checkoutSupportEmail": "support@lansictiles.test",
+    "orderNotificationsEnabled": true,
+    "notificationSenderEmail": "orders@lansictiles.test",
+    "notificationReplyToEmail": "support@lansictiles.test",
+    "orderNotificationRecipient": "ops@lansictiles.test",
+    "shippingPromotionText": "Spend {amount} more to get free shipping.",
+    "purchaseAdviceText": "We recommend adding 10% extra for cuts and breakages.",
+    "cookieConsentEnabled": true,
+    "seoTitle": "Lansic Tiles | Mosaic Tile Collections",
+    "seoDescription": "Luxury mosaic tile collections for kitchens, bathrooms, pools and custom design projects.",
+    "seoKeywords": [
+      "mosaic tiles",
+      "custom tiles",
+      "marble mosaic",
+      "glass mosaic"
+    ]
+  },
+  "mainMenu": [
+    {
+      "id": "menu-home",
+      "label": "Home",
+      "href": "/",
+      "enabled": true,
+      "fontSize": 15,
+      "fontWeight": 600,
+      "color": "#1f2937"
+    },
+    {
+      "id": "menu-shop",
+      "label": "Shop",
+      "href": "/shop",
+      "enabled": true,
+      "fontSize": 15,
+      "fontWeight": 600,
+      "color": "#1f2937"
+    },
+    {
+      "id": "menu-custom",
+      "label": "Custom",
+      "href": "/custom",
+      "enabled": true,
+      "fontSize": 15,
+      "fontWeight": 600,
+      "color": "#1f2937"
+    },
+    {
+      "id": "menu-gallery",
+      "label": "Gallery",
+      "href": "/gallery",
+      "enabled": true,
+      "fontSize": 15,
+      "fontWeight": 600,
+      "color": "#1f2937"
+    },
+    {
+      "id": "menu-contact",
+      "label": "Contact",
+      "href": "/contact",
+      "enabled": true,
+      "fontSize": 15,
+      "fontWeight": 600,
+      "color": "#1f2937"
+    }
+  ],
+  "footerSections": [
+    {
+      "id": "footer-shop",
+      "title": "Shop Collection",
+      "links": [
+        {
+          "id": "footer-home",
+          "label": "Home",
+          "href": "/"
+        },
+        {
+          "id": "footer-shop-link",
+          "label": "Shop",
+          "href": "/shop"
+        },
+        {
+          "id": "footer-custom",
+          "label": "Custom",
+          "href": "/custom"
+        },
+        {
+          "id": "footer-gallery",
+          "label": "Gallery",
+          "href": "/gallery"
+        },
+        {
+          "id": "footer-contact",
+          "label": "Contact",
+          "href": "/contact"
+        }
+      ]
+    },
+    {
+      "id": "footer-support",
+      "title": "Customer Support",
+      "links": [
+        {
+          "id": "support-about",
+          "label": "About Us",
+          "href": "/about"
+        },
+        {
+          "id": "support-return",
+          "label": "Return Policy",
+          "href": "/contact"
+        },
+        {
+          "id": "support-help",
+          "label": "Help & Questions",
+          "href": "/contact"
+        },
+        {
+          "id": "support-contact",
+          "label": "Contact",
+          "href": "/contact"
+        }
+      ]
+    }
+  ],
+  "socialLinks": [
+    {
+      "id": "social-instagram",
+      "label": "Instagram",
+      "href": "https://instagram.com/lansictiles"
+    },
+    {
+      "id": "social-facebook",
+      "label": "Facebook",
+      "href": "https://facebook.com/lansictiles"
+    },
+    {
+      "id": "social-tiktok",
+      "label": "TikTok",
+      "href": "https://tiktok.com/@lansictiles"
+    }
+  ],
+  "filterGroups": [
+    {
+      "key": "materials",
+      "label": "Materials",
+      "enabled": true,
+      "options": [
+        {
+          "id": "material-marble",
+          "label": "Marble",
+          "enabled": true,
+          "sortOrder": 1
+        },
+        {
+          "id": "material-glass",
+          "label": "Glass",
+          "enabled": true,
+          "sortOrder": 2
+        },
+        {
+          "id": "material-metal",
+          "label": "Metal",
+          "enabled": true,
+          "sortOrder": 3
+        },
+        {
+          "id": "material-mop",
+          "label": "Mother of Pearl",
+          "enabled": true,
+          "sortOrder": 4
+        },
+        {
+          "id": "material-ceramic",
+          "label": "Ceramic",
+          "enabled": true,
+          "sortOrder": 5
+        },
+        {
+          "id": "material-wood",
+          "label": "Wood",
+          "enabled": true,
+          "sortOrder": 6
+        }
+      ]
+    },
+    {
+      "key": "patterns",
+      "label": "Patterns",
+      "enabled": true,
+      "options": [
+        {
+          "id": "pattern-square",
+          "label": "Square (Block)",
+          "enabled": true,
+          "sortOrder": 1
+        },
+        {
+          "id": "pattern-rectangle",
+          "label": "Rectangle (Brick)",
+          "enabled": true,
+          "sortOrder": 2
+        },
+        {
+          "id": "pattern-round",
+          "label": "Round & Oval",
+          "enabled": true,
+          "sortOrder": 3
+        },
+        {
+          "id": "pattern-hexagon",
+          "label": "Hexagon",
+          "enabled": true,
+          "sortOrder": 4
+        },
+        {
+          "id": "pattern-fan",
+          "label": "Fan Shape",
+          "enabled": true,
+          "sortOrder": 5
+        },
+        {
+          "id": "pattern-waterjet",
+          "label": "Waterjet Cut",
+          "enabled": true,
+          "sortOrder": 6
+        }
+      ]
+    },
+    {
+      "key": "colors",
+      "label": "Colors",
+      "enabled": true,
+      "options": [
+        {
+          "id": "color-white",
+          "label": "White & Beige",
+          "enabled": true,
+          "sortOrder": 1
+        },
+        {
+          "id": "color-black",
+          "label": "Black & Gray",
+          "enabled": true,
+          "sortOrder": 2
+        },
+        {
+          "id": "color-blue",
+          "label": "Blue & Green",
+          "enabled": true,
+          "sortOrder": 3
+        },
+        {
+          "id": "color-brown",
+          "label": "Brown & Taupe",
+          "enabled": true,
+          "sortOrder": 4
+        },
+        {
+          "id": "color-gold",
+          "label": "Yellow & Gold",
+          "enabled": true,
+          "sortOrder": 5
+        }
+      ]
+    },
+    {
+      "key": "applications",
+      "label": "Application",
+      "enabled": true,
+      "options": [
+        {
+          "id": "app-indoor",
+          "label": "Indoor",
+          "enabled": true,
+          "sortOrder": 1
+        },
+        {
+          "id": "app-outdoor",
+          "label": "Outdoor",
+          "enabled": true,
+          "sortOrder": 2
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-carrara-fan",
+      "slug": "carrara-fan-marble-mosaic",
+      "name": "White Marble Floral Mosaic tiles 12x12\"",
+      "shortDescription": "Soft white marble fan mosaic designed for refined powder rooms, shower niches and statement backsplashes.",
+      "descriptionHtml": "<p>Carrara Fan combines classic marble veining with a graceful scallop silhouette for residential and boutique hospitality projects.</p><p><strong>Application:</strong> Powder room walls, shower niches, kitchen backsplashes and decorative feature zones.</p>",
+      "piecePrice": 12.9,
+      "boxPrice": 189,
+      "compareAtPrice": 0,
+      "packQuantity": 10,
+      "samplePrice": 0,
+      "sampleLabel": "Order Swatch Sample",
+      "stockQty": 80,
+      "lowStockThreshold": 30,
+      "sku": "LA001",
+      "materials": [
+        "Marble"
+      ],
+      "patterns": [
+        "Waterjet Cut"
+      ],
+      "colors": [
+        "White & Beige",
+        "Blue & Green"
+      ],
+      "applications": [
+        "Indoor",
+        "Outdoor"
+      ],
+      "featured": true,
+      "images": [
+        {
+          "id": "img-carrara-main",
+          "path": "/uploads/85a4070b-7062-473f-82fd-14a7394b39b5.jpg",
+          "alt": "Carrara fan marble mosaic",
+          "type": "main",
+          "sortOrder": 1
+        },
+        {
+          "id": "img-carrara-detail",
+          "path": "/uploads/7c11984c-b940-4b20-8dad-d9061a7f13fa.jpg",
+          "alt": "Carrara fan mosaic bathroom niche",
+          "type": "detail",
+          "sortOrder": 2
+        },
+        {
+          "id": "img-1782035614548-2bdf41",
+          "path": "/uploads/41a604a5-927f-4150-8a74-09fb13116e6f.jpg",
+          "alt": "",
+          "type": "detail",
+          "sortOrder": 3
+        },
+        {
+          "id": "img-1782035615552-cb5fb3",
+          "path": "/uploads/57cc2a46-fab1-4205-83a9-1c55daa47117.jpg",
+          "alt": "",
+          "type": "detail",
+          "sortOrder": 4
+        }
+      ],
+      "variants": [
+        {
+          "id": "variant-carrara-polished",
+          "name": "White Color",
+          "sku": "LA001-W",
+          "piecePrice": 29.9,
+          "boxPrice": 189,
+          "packQuantity": 10,
+          "stockQty": 80,
+          "enabled": true,
+          "isDefault": true,
+          "images": [
+            {
+              "id": "img-carrara-polished-main",
+              "path": "/uploads/ec5e2692-acef-47c5-a672-677c173e45ca.jpg",
+              "alt": "Polished Carrara marble mosaic",
+              "type": "main",
+              "sortOrder": 1
+            },
+            {
+              "id": "img-carrara-polished-detail",
+              "path": "/uploads/10d52d8b-d4b8-405d-bd14-0477ec085b7f.jpg",
+              "alt": "Polished Carrara mosaic detail",
+              "type": "detail",
+              "sortOrder": 2
+            },
+            {
+              "id": "img-1782035502437-2c656e",
+              "path": "/uploads/814b1f83-5d6f-49f8-89b4-a7d83fd3751d.jpg",
+              "alt": "",
+              "type": "detail",
+              "sortOrder": 3
+            },
+            {
+              "id": "img-1782035510370-df548d",
+              "path": "/uploads/39da94cf-24ab-41ec-aa59-728086f1b803.jpg",
+              "alt": "",
+              "type": "detail",
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "variant-1782035755001-27566a",
+          "name": "Green Color",
+          "sku": "LA001-G",
+          "piecePrice": 29.9,
+          "boxPrice": 189,
+          "packQuantity": 10,
+          "stockQty": 80,
+          "images": [
+            {
+              "id": "img-1782035818783-ed8a66",
+              "path": "/uploads/e06de2a4-9146-404f-beaf-184b7f705176.jpg",
+              "alt": "",
+              "type": "main",
+              "sortOrder": 1
+            },
+            {
+              "id": "img-1782035825548-10207d",
+              "path": "/uploads/a6ff5b55-6ee1-41e5-b782-17230d90b57f.jpg",
+              "alt": "",
+              "type": "detail",
+              "sortOrder": 2
+            },
+            {
+              "id": "img-1782035834098-740489",
+              "path": "/uploads/832f347a-233d-491f-96cc-ba911fc25017.jpg",
+              "alt": "",
+              "type": "detail",
+              "sortOrder": 3
+            },
+            {
+              "id": "img-1782035841523-7db54b",
+              "path": "/uploads/99819052-a1e0-45f6-a4c4-a24195de6336.jpg",
+              "alt": "",
+              "type": "detail",
+              "sortOrder": 4
+            }
+          ],
+          "enabled": true,
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "prod-emerald-hex",
+      "slug": "emerald-glass-hexagon-tile",
+      "name": "Emerald Glass Hexagon Tile",
+      "shortDescription": "Jewel-toned glass hexagon mosaic that adds reflective depth to kitchens, wet areas and pool-adjacent spaces.",
+      "descriptionHtml": "<p>Emerald Glass Hexagon offers saturated color, crisp geometry and a luminous finish for feature walls and backsplashes.</p><p><strong>Application:</strong> Kitchen backsplash, wet bar, shower wall, pool house accent and outdoor covered areas.</p>",
+      "piecePrice": 1.25,
+      "boxPrice": 58,
+      "compareAtPrice": 0,
+      "packQuantity": 58,
+      "samplePrice": 0,
+      "sampleLabel": "Order Swatch Sample",
+      "stockQty": 24,
+      "lowStockThreshold": 10,
+      "sku": "LT-EGH-014",
+      "materials": [
+        "Glass"
+      ],
+      "patterns": [
+        "Hexagon"
+      ],
+      "colors": [
+        "Blue & Green"
+      ],
+      "applications": [
+        "Indoor",
+        "Outdoor"
+      ],
+      "featured": true,
+      "images": [
+        {
+          "id": "img-emerald-main",
+          "path": "https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=emerald%20glass%20hexagon%20mosaic%20tile%20luxury%20product%20photography%20reflective%20surface&image_size=landscape_4_3",
+          "alt": "Emerald glass hexagon tile",
+          "type": "main",
+          "sortOrder": 1
+        },
+        {
+          "id": "img-emerald-detail",
+          "path": "https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=emerald%20glass%20hexagon%20mosaic%20backsplash%20luxury%20kitchen%20editorial%20interior&image_size=portrait_4_3",
+          "alt": "Emerald glass hexagon backsplash",
+          "type": "detail",
+          "sortOrder": 2
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "prod-pearl-waterjet",
+      "slug": "pearl-waterjet-bloom-mosaic",
+      "name": "Pearl Waterjet Bloom Mosaic",
+      "shortDescription": "Iridescent shell mosaic with waterjet floral detailing for elevated custom interiors.",
+      "descriptionHtml": "<p>This waterjet-cut shell mosaic delivers a refined bloom pattern with subtle iridescence. It performs beautifully in boutique bathrooms, vanity walls and bespoke furniture inlays.</p><p><strong>Application:</strong> Decorative panel, vanity wall, boutique hotel suite and custom furniture.</p>",
+      "piecePrice": 2,
+      "boxPrice": 0,
+      "packQuantity": 0,
+      "compareAtPrice": 0,
+      "samplePrice": 0,
+      "sampleLabel": "Order Swatch Sample",
+      "stockQty": 16,
+      "lowStockThreshold": 4,
+      "sku": "LT-PWB-021",
+      "materials": [
+        "Mother of Pearl"
+      ],
+      "patterns": [
+        "Waterjet Cut"
+      ],
+      "colors": [
+        "White & Beige",
+        "Yellow & Gold"
+      ],
+      "applications": [
+        "Indoor"
+      ],
+      "featured": false,
+      "images": [
+        {
+          "id": "img-pearl-main",
+          "path": "https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=mother%20of%20pearl%20waterjet%20mosaic%20tile%20luxury%20product%20photography%20iridescent%20shell&image_size=landscape_4_3",
+          "alt": "Mother of pearl bloom mosaic",
+          "type": "main",
+          "sortOrder": 1
+        },
+        {
+          "id": "img-pearl-detail",
+          "path": "https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=mother%20of%20pearl%20mosaic%20installed%20on%20luxury%20vanity%20wall%20editorial%20interior%20shot&image_size=portrait_4_3",
+          "alt": "Mother of pearl vanity wall",
+          "type": "detail",
+          "sortOrder": 2
+        }
+      ],
+      "variants": []
+    }
+  ],
+  "banners": [
+    {
+      "id": "banner-1",
+      "title": "Mosaic Surfaces With Architectural Presence",
+      "subtitle": "Refined collections for kitchens, baths, pools and custom commissions.",
+      "image": "https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=luxury%20mosaic%20tile%20showroom%20editorial%20interior%20warm%20stone%20palette%20high-end%20architecture&image_size=landscape_16_9",
+      "href": "/shop",
+      "enabled": true,
+      "sortOrder": 1
+    },
+    {
+      "id": "banner-2",
+      "title": "Custom Tile Programs For Unique Projects",
+      "subtitle": "From moodboard to material delivery, shape every detail with Lansic.",
+      "image": "https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=custom%20mosaic%20tile%20design%20studio%20samples%20stone%20shell%20glass%20luxury%20workspace&image_size=landscape_16_9",
+      "href": "/custom",
+      "enabled": true,
+      "sortOrder": 2
+    }
+  ],
+  "galleryItems": [
+    {
+      "id": "gallery-1",
+      "title": "Hotel Spa Feature Wall",
+      "category": "Hospitality",
+      "image": "https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=hotel%20spa%20feature%20wall%20with%20marble%20mosaic%20luxury%20lighting%20editorial%20interior&image_size=portrait_16_9",
+      "description": "A calm stone composition for a premium spa reception and lounge area."
+    },
+    {
+      "id": "gallery-2",
+      "title": "Emerald Kitchen Backdrop",
+      "category": "Residential",
+      "image": "https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=emerald%20glass%20mosaic%20kitchen%20backsplash%20luxury%20modern%20home%20sunlight&image_size=portrait_16_9",
+      "description": "Reflective glass mosaic bringing depth to a contemporary open kitchen."
+    },
+    {
+      "id": "gallery-3",
+      "title": "Shell Vanity Panel",
+      "category": "Custom",
+      "image": "https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=mother%20of%20pearl%20mosaic%20vanity%20panel%20luxury%20bathroom%20soft%20ambient%20light&image_size=portrait_16_9",
+      "description": "Bespoke iridescent detailing for a boutique suite vanity installation."
+    }
+  ],
+  "shippingMethods": [
+    {
+      "id": "ship-sea",
+      "name": "Sea Freight",
+      "price": 50,
+      "estimatedDays": "25-40 business days",
+      "enabled": true,
+      "description": "25-40 business days",
+      "freeThreshold": 50000,
+      "displayOrder": 1,
+      "shippingMode": "sea_freight",
+      "shippingGroup": "standard",
+      "trackingUrlTemplate": "https://www.17track.net/en/track?nums={trackingNumber}",
+      "createdAt": "2026-06-01T00:00:00.000Z",
+      "updatedAt": "2026-06-24T08:44:06.637Z"
+    },
+    {
+      "id": "ship-priority",
+      "name": "Air Freight",
+      "price": 120,
+      "estimatedDays": "7-15 business days",
+      "enabled": true,
+      "description": "7-15 business days",
+      "freeThreshold": 1200000,
+      "displayOrder": 2,
+      "shippingMode": "air_freight",
+      "shippingGroup": "standard",
+      "trackingUrlTemplate": "https://www.17track.net/en/track?nums={trackingNumber}",
+      "createdAt": "2026-06-01T00:00:00.000Z",
+      "updatedAt": "2026-06-24T08:42:45.308Z"
+    },
+    {
+      "id": "ship-standard",
+      "name": "International Express",
+      "price": 200,
+      "estimatedDays": "3-7 business days",
+      "enabled": true,
+      "description": "3-7 business days",
+      "freeThreshold": 1200000,
+      "displayOrder": 3,
+      "shippingMode": "international_express",
+      "shippingGroup": "standard",
+      "trackingUrlTemplate": "https://www.17track.net/en/track?nums={trackingNumber}",
+      "createdAt": "2026-06-01T00:00:00.000Z",
+      "updatedAt": "2026-06-24T08:44:12.554Z"
+    },
+    {
+      "id": "ship-sample",
+      "name": "Sample Courier",
+      "price": 25,
+      "estimatedDays": "5-9 business days",
+      "enabled": true,
+      "description": "5-9 business days",
+      "freeThreshold": 0,
+      "displayOrder": 4,
+      "shippingMode": "sample_courier",
+      "trackingUrlTemplate": "https://www.17track.net/en/track?nums={trackingNumber}",
+      "createdAt": "2026-06-01T00:00:00.000Z",
+      "updatedAt": "2026-06-24T08:44:29.021Z",
+      "shippingGroup": "sample"
+    }
+  ],
+  "discountCodes": [
+    {
+      "id": "discount-welcome10",
+      "code": "WELCOME10",
+      "type": "percentage",
+      "value": 10,
+      "minOrder": 50,
+      "startsAt": "2026-06-01T00:00:00.000Z",
+      "expiresAt": "",
+      "usageLimit": 0,
+      "usedCount": 1,
+      "isActive": true,
+      "createdAt": "2026-06-01T00:00:00.000Z",
+      "updatedAt": "2026-06-21T00:00:00.000Z"
+    },
+    {
+      "id": "discount-freeship",
+      "code": "FREESHIP",
+      "type": "free_shipping",
+      "value": 0,
+      "minOrder": 100,
+      "startsAt": "2026-06-01T00:00:00.000Z",
+      "expiresAt": "",
+      "usageLimit": 0,
+      "usedCount": 0,
+      "isActive": true,
+      "createdAt": "2026-06-01T00:00:00.000Z",
+      "updatedAt": "2026-06-21T00:00:00.000Z"
+    },
+    {
+      "id": "discount-save25",
+      "code": "SAVE25",
+      "type": "fixed",
+      "value": 25,
+      "minOrder": 150,
+      "startsAt": "2026-06-01T00:00:00.000Z",
+      "expiresAt": "",
+      "usageLimit": 100,
+      "usedCount": 0,
+      "isActive": true,
+      "createdAt": "2026-06-01T00:00:00.000Z",
+      "updatedAt": "2026-06-21T00:00:00.000Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "review-3",
+      "productId": "prod-emerald-hex",
+      "orderId": "order-1005",
+      "customerEmail": "browser@test.com",
+      "customerName": "Browser Test Buyer",
+      "rating": 5,
+      "content": "Browser approval flow test review.",
+      "status": "pending",
+      "verifiedPurchase": true,
+      "images": [],
+      "createdAt": "2026-06-21T06:12:13.748Z"
+    },
+    {
+      "id": "review-1",
+      "productId": "prod-carrara-fan",
+      "orderId": "order-1001",
+      "customerEmail": "sophia@atelierhouse.com",
+      "customerName": "Sophia L.",
+      "rating": 5,
+      "content": "Beautiful veining and a very balanced finish. We used it in a powder room niche and the result felt custom-made.",
+      "status": "approved",
+      "verifiedPurchase": true,
+      "images": [],
+      "createdAt": "2026-06-10T08:00:00.000Z"
+    },
+    {
+      "id": "review-2",
+      "productId": "prod-emerald-hex",
+      "orderId": "order-1002",
+      "customerEmail": "jules@northandco.com",
+      "customerName": "Jules M.",
+      "rating": 4,
+      "content": "Color is rich and consistent. Packaging was secure and installation went smoothly.",
+      "status": "approved",
+      "verifiedPurchase": true,
+      "images": [],
+      "createdAt": "2026-06-12T08:00:00.000Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "order-1009",
+      "orderNo": "LT-1009",
+      "customerName": "QA Email Buyer",
+      "customerEmail": "qa-email@example.com",
+      "status": "pending",
+      "paymentStatus": "pending",
+      "paymentMethod": "paypal",
+      "items": [
+        {
+          "productId": "prod-carrara-fan",
+          "productName": "White Marble Floral Mosaic tiles 12x12\"",
+          "sku": "LA001-W",
+          "variantId": "variant-carrara-polished",
+          "variantName": "White Color",
+          "quantity": 1,
+          "unitPrice": 189,
+          "pricingMode": "box",
+          "piecePrice": 29.9,
+          "boxPrice": 189,
+          "packQuantity": 10,
+          "samplePrice": 0,
+          "calculatedPieceQuantity": 10
+        }
+      ],
+      "shippingMethodId": "ship-standard",
+      "shippingMethodName": "International Express",
+      "shippingMethodDescription": "3-7 business days",
+      "shippingMode": "international_express",
+      "shippingAmount": 68,
+      "discountCode": "",
+      "discountAmount": 0,
+      "subtotalAmount": 189,
+      "totalAmount": 257,
+      "currency": "USD",
+      "shippingAddress": {
+        "fullName": "QA Email Buyer",
+        "email": "qa-email@example.com",
+        "phone": "+1 202 555 0108",
+        "addressLine1": "500 Market Street",
+        "addressLine2": "",
+        "city": "San Francisco",
+        "state": "CA",
+        "postalCode": "94105",
+        "country": "United States"
+      },
+      "trackingNumber": "",
+      "carrierName": "",
+      "trackingUrl": "",
+      "logisticsNotes": "",
+      "shippedAt": "",
+      "confirmationEmailSentAt": "2026-06-21T14:15:11.212Z",
+      "createdAt": "2026-06-21T14:15:11.212Z"
+    },
+    {
+      "id": "order-1008",
+      "orderNo": "LT-1008",
+      "customerName": "QA Checkout Buyer",
+      "customerEmail": "qa-checkout@example.com",
+      "status": "pending",
+      "paymentStatus": "pending",
+      "paymentMethod": "credit_card",
+      "items": [
+        {
+          "productId": "prod-carrara-fan",
+          "productName": "White Marble Floral Mosaic tiles 12x12\"",
+          "sku": "LA001-W",
+          "variantId": "variant-carrara-polished",
+          "variantName": "White Color",
+          "quantity": 2,
+          "unitPrice": 29.9,
+          "pricingMode": "piece",
+          "piecePrice": 29.9,
+          "boxPrice": 189,
+          "packQuantity": 10,
+          "samplePrice": 0,
+          "calculatedPieceQuantity": 2
+        }
+      ],
+      "shippingMethodId": "ship-priority",
+      "shippingMethodName": "Air Freight",
+      "shippingMethodDescription": "7-15 business days",
+      "shippingMode": "air_freight",
+      "shippingAmount": 145,
+      "discountCode": "WELCOME10",
+      "discountAmount": 5.98,
+      "subtotalAmount": 59.8,
+      "totalAmount": 198.82,
+      "currency": "USD",
+      "shippingAddress": {
+        "fullName": "QA Checkout Buyer",
+        "email": "qa-checkout@example.com",
+        "phone": "+1 202 555 0199",
+        "addressLine1": "123 Test Avenue",
+        "addressLine2": "",
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98101",
+        "country": "United States"
+      },
+      "trackingNumber": "",
+      "carrierName": "",
+      "trackingUrl": "",
+      "logisticsNotes": "",
+      "shippedAt": "",
+      "confirmationEmailSentAt": "",
+      "createdAt": "2026-06-21T14:12:53.898Z"
+    },
+    {
+      "id": "order-1007",
+      "orderNo": "LT-1007",
+      "customerName": "Logistics Browser Buyer",
+      "customerEmail": "logistics-browser@example.com",
+      "status": "shipped",
+      "paymentStatus": "paid",
+      "paymentMethod": "paypal",
+      "items": [
+        {
+          "productId": "prod-carrara-fan",
+          "productName": "White Marble Floral Mosaic tiles 12x12\"",
+          "sku": "LA001-W",
+          "variantId": "variant-carrara-polished",
+          "variantName": "White Color",
+          "quantity": 2,
+          "unitPrice": 189,
+          "pricingMode": "box",
+          "piecePrice": 29.9,
+          "boxPrice": 189,
+          "packQuantity": 10,
+          "calculatedPieceQuantity": 20,
+          "samplePrice": 0
+        }
+      ],
+      "shippingMethodId": "ship-sea",
+      "shippingMethodName": "Sea Freight",
+      "shippingMethodDescription": "25-40 business days",
+      "shippingMode": "sea_freight",
+      "shippingAmount": 320,
+      "subtotalAmount": 378,
+      "totalAmount": 698,
+      "currency": "USD",
+      "trackingNumber": "MSCU1234567",
+      "carrierName": "MSC",
+      "trackingUrl": "https://www.17track.net/en/track?nums=MSCU1234567",
+      "logisticsNotes": "Sea freight booking confirmed. Container loaded and export customs released. Final delivery will be arranged after port arrival.",
+      "shippedAt": "2026-06-21T13:45:00.000Z",
+      "createdAt": "2026-06-21T13:37:29.948Z",
+      "discountCode": "",
+      "discountAmount": 0,
+      "shippingAddress": {
+        "fullName": "Logistics Browser Buyer",
+        "email": "logistics-browser@example.com",
+        "phone": "",
+        "addressLine1": "",
+        "addressLine2": "",
+        "city": "",
+        "state": "",
+        "postalCode": "",
+        "country": ""
+      },
+      "confirmationEmailSentAt": ""
+    },
+    {
+      "id": "order-1006",
+      "orderNo": "LT-1006",
+      "customerName": "Pack Quantity QA",
+      "customerEmail": "pack-qa@example.com",
+      "status": "pending",
+      "paymentStatus": "pending",
+      "paymentMethod": "paypal",
+      "items": [
+        {
+          "productId": "prod-emerald-hex",
+          "productName": "Emerald Glass Hexagon Tile",
+          "quantity": 1,
+          "unitPrice": 58,
+          "pricingMode": "box",
+          "piecePrice": 1.25,
+          "boxPrice": 58,
+          "packQuantity": 58,
+          "calculatedPieceQuantity": 58,
+          "samplePrice": 0
+        }
+      ],
+      "shippingMethodId": "ship-standard",
+      "shippingAmount": 68,
+      "subtotalAmount": 58,
+      "totalAmount": 126,
+      "currency": "USD",
+      "trackingNumber": "",
+      "carrierName": "",
+      "createdAt": "2026-06-21T08:04:27.770Z",
+      "shippingMethodName": "International Express",
+      "shippingMethodDescription": "3-7 business days",
+      "shippingMode": "international_express",
+      "trackingUrl": "",
+      "logisticsNotes": "",
+      "shippedAt": "",
+      "discountCode": "",
+      "discountAmount": 0,
+      "shippingAddress": {
+        "fullName": "Pack Quantity QA",
+        "email": "pack-qa@example.com",
+        "phone": "",
+        "addressLine1": "",
+        "addressLine2": "",
+        "city": "",
+        "state": "",
+        "postalCode": "",
+        "country": ""
+      },
+      "confirmationEmailSentAt": ""
+    },
+    {
+      "id": "order-1005",
+      "orderNo": "LT-1005",
+      "customerName": "Browser Test Buyer",
+      "customerEmail": "browser@test.com",
+      "status": "pending",
+      "paymentStatus": "pending",
+      "paymentMethod": "paypal",
+      "items": [
+        {
+          "productId": "prod-emerald-hex",
+          "productName": "Emerald Glass Hexagon Tile",
+          "quantity": 1,
+          "unitPrice": 58,
+          "pricingMode": "box",
+          "piecePrice": 1.25,
+          "boxPrice": 58,
+          "packQuantity": 58,
+          "calculatedPieceQuantity": 58,
+          "samplePrice": 0
+        }
+      ],
+      "shippingMethodId": "ship-standard",
+      "shippingAmount": 68,
+      "subtotalAmount": 58,
+      "totalAmount": 126,
+      "currency": "USD",
+      "trackingNumber": "",
+      "carrierName": "",
+      "createdAt": "2026-06-21T06:09:48.214Z",
+      "shippingMethodName": "International Express",
+      "shippingMethodDescription": "3-7 business days",
+      "shippingMode": "international_express",
+      "trackingUrl": "",
+      "logisticsNotes": "",
+      "shippedAt": "",
+      "discountCode": "",
+      "discountAmount": 0,
+      "shippingAddress": {
+        "fullName": "Browser Test Buyer",
+        "email": "browser@test.com",
+        "phone": "",
+        "addressLine1": "",
+        "addressLine2": "",
+        "city": "",
+        "state": "",
+        "postalCode": "",
+        "country": ""
+      },
+      "confirmationEmailSentAt": ""
+    },
+    {
+      "id": "order-1001",
+      "orderNo": "LT-1001",
+      "customerName": "Sophia L.",
+      "customerEmail": "sophia@atelierhouse.com",
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "paypal",
+      "items": [
+        {
+          "productId": "prod-carrara-fan",
+          "productName": "Carrara Fan Marble Mosaic",
+          "quantity": 6,
+          "unitPrice": 84,
+          "pricingMode": "box",
+          "piecePrice": 1.85,
+          "boxPrice": 84,
+          "packQuantity": 58,
+          "calculatedPieceQuantity": 348,
+          "samplePrice": 0
+        }
+      ],
+      "shippingMethodId": "ship-priority",
+      "shippingAmount": 0,
+      "subtotalAmount": 504,
+      "totalAmount": 504,
+      "currency": "USD",
+      "trackingNumber": "ZX93828281",
+      "carrierName": "DHL",
+      "createdAt": "2026-06-09T10:30:00.000Z",
+      "shippingMethodName": "Air Freight",
+      "shippingMethodDescription": "7-15 business days",
+      "shippingMode": "air_freight",
+      "trackingUrl": "https://www.17track.net/en/track?nums=ZX93828281",
+      "logisticsNotes": "Air freight cleared export customs and handed over to DHL final-mile delivery.",
+      "shippedAt": "2026-06-10T14:00:00.000Z",
+      "discountCode": "",
+      "discountAmount": 0,
+      "shippingAddress": {
+        "fullName": "Sophia L.",
+        "email": "sophia@atelierhouse.com",
+        "phone": "",
+        "addressLine1": "",
+        "addressLine2": "",
+        "city": "",
+        "state": "",
+        "postalCode": "",
+        "country": ""
+      },
+      "confirmationEmailSentAt": ""
+    },
+    {
+      "id": "order-1002",
+      "orderNo": "LT-1002",
+      "customerName": "Jules M.",
+      "customerEmail": "jules@northandco.com",
+      "status": "shipped",
+      "paymentStatus": "paid",
+      "paymentMethod": "paypal",
+      "items": [
+        {
+          "productId": "prod-emerald-hex",
+          "productName": "Emerald Glass Hexagon Tile",
+          "quantity": 8,
+          "unitPrice": 58,
+          "pricingMode": "box",
+          "piecePrice": 1.25,
+          "boxPrice": 58,
+          "packQuantity": 58,
+          "calculatedPieceQuantity": 464,
+          "samplePrice": 0
+        }
+      ],
+      "shippingMethodId": "ship-sea",
+      "shippingAmount": 0,
+      "subtotalAmount": 464,
+      "totalAmount": 464,
+      "currency": "USD",
+      "trackingNumber": "UPS23830018",
+      "carrierName": "UPS",
+      "createdAt": "2026-06-12T11:30:00.000Z",
+      "shippingMethodName": "Sea Freight",
+      "shippingMethodDescription": "25-40 business days",
+      "shippingMode": "sea_freight",
+      "trackingUrl": "https://www.17track.net/en/track?nums=UPS23830018",
+      "logisticsNotes": "Sea freight container arrived at destination port. Final local delivery scheduled with UPS.",
+      "shippedAt": "2026-06-15T09:30:00.000Z",
+      "discountCode": "",
+      "discountAmount": 0,
+      "shippingAddress": {
+        "fullName": "Jules M.",
+        "email": "jules@northandco.com",
+        "phone": "",
+        "addressLine1": "",
+        "addressLine2": "",
+        "city": "",
+        "state": "",
+        "postalCode": "",
+        "country": ""
+      },
+      "confirmationEmailSentAt": ""
+    }
+  ],
+  "customers": [
+    {
+      "id": "customer-7",
+      "name": "QA Email Buyer",
+      "email": "qa-email@example.com",
+      "phone": "+1 202 555 0108",
+      "registeredAt": "2026-06-21T14:15:11.212Z"
+    },
+    {
+      "id": "customer-6",
+      "name": "QA Checkout Buyer",
+      "email": "qa-checkout@example.com",
+      "phone": "+1 202 555 0199",
+      "registeredAt": "2026-06-21T14:12:53.898Z"
+    },
+    {
+      "id": "customer-5",
+      "name": "Logistics Browser Buyer",
+      "email": "logistics-browser@example.com",
+      "phone": "",
+      "registeredAt": "2026-06-21T13:37:29.948Z"
+    },
+    {
+      "id": "customer-4",
+      "name": "Pack Quantity QA",
+      "email": "pack-qa@example.com",
+      "phone": "",
+      "registeredAt": "2026-06-21T08:04:27.770Z"
+    },
+    {
+      "id": "customer-3",
+      "name": "Browser Test Buyer",
+      "email": "browser@test.com",
+      "phone": "",
+      "registeredAt": "2026-06-21T06:09:48.214Z"
+    },
+    {
+      "id": "customer-1",
+      "name": "Sophia L.",
+      "email": "sophia@atelierhouse.com",
+      "phone": "+1 202 555 1834",
+      "registeredAt": "2026-06-09T10:00:00.000Z"
+    },
+    {
+      "id": "customer-2",
+      "name": "Jules M.",
+      "email": "jules@northandco.com",
+      "phone": "+1 202 555 1986",
+      "registeredAt": "2026-06-12T11:00:00.000Z"
+    }
+  ],
+  "inquiries": [
+    {
+      "id": "inq-1",
+      "name": "Mika Chen",
+      "email": "mika@designwork.jp",
+      "phone": "+81 90 5555 0011",
+      "message": "Looking for a warm-toned mosaic for a ryokan bath wall. Need custom sizing.",
+      "applicationScene": "Hospitality bathroom",
+      "budgetRange": "$4,000 - $8,000",
+      "referenceImagePaths": [],
+      "createdAt": "2026-06-15T08:00:00.000Z"
+    }
+  ],
+  "managedPages": [
+    {
+      "id": "page-home",
+      "name": "Home",
+      "nameTranslations": {
+        "fr": "Accueil",
+        "pt": "Início",
+        "de": "Startseite",
+        "ja": "ホーム",
+        "zh": "首页"
+      },
+      "slug": "/",
+      "thumbnail": "https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=luxury%20mosaic%20homepage%20editorial%20web%20layout%20preview&image_size=landscape_4_3",
+      "blocks": [
+        {
+          "id": "home-why-title",
+          "type": "rich-text",
+          "title": "Why Lansic",
+          "titleTranslations": {
+            "fr": "Pourquoi Lansic",
+            "pt": "Por que Lansic",
+            "de": "Warum Lansic",
+            "ja": "Lansic の特長",
+            "zh": "为什么选择 Lansic"
+          },
+          "content": "Material-led collections for premium interiors and custom commissions.",
+          "contentTranslations": {
+            "fr": "Des collections guidées par la matière pour des intérieurs haut de gamme et des projets sur mesure.",
+            "pt": "Coleções orientadas por materiais para interiores premium e projetos personalizados.",
+            "de": "Materialorientierte Kollektionen für hochwertige Innenräume und individuelle Projekte.",
+            "ja": "上質な空間づくりと特注案件のための、素材主導のコレクションです。",
+            "zh": "以材质为核心，面向高端空间与定制项目的马赛克系列。"
+          }
+        },
+        {
+          "id": "home-featured-title",
+          "type": "product-grid",
+          "title": "Featured Collection",
+          "titleTranslations": {
+            "fr": "Collection vedette",
+            "pt": "Coleção em destaque",
+            "de": "Ausgewählte Kollektion",
+            "ja": "注目コレクション",
+            "zh": "精选系列"
+          },
+          "content": "Signature mosaics ready for specification.",
+          "contentTranslations": {
+            "fr": "Des mosaïques signatures prêtes à être spécifiées.",
+            "pt": "Mosaicos exclusivos prontos para especificação.",
+            "de": "Charakterstarke Mosaike, bereit für Planung und Bemusterung.",
+            "ja": "設計提案にすぐ使える代表的なモザイクです。",
+            "zh": "适合选型与项目落地的代表性马赛克产品。"
+          }
+        },
+        {
+          "id": "home-custom-title",
+          "type": "rich-text",
+          "title": "Custom Program",
+          "titleTranslations": {
+            "fr": "Programme sur mesure",
+            "pt": "Programa personalizado",
+            "de": "Custom-Programm",
+            "ja": "カスタムプログラム",
+            "zh": "定制服务"
+          },
+          "content": "Share your palette, application and target budget. Lansic will return a curated proposal with material direction and production guidance.",
+          "contentTranslations": {
+            "fr": "Partagez votre palette, votre usage et votre budget. Lansic vous proposera une solution adaptée avec conseil matière et production.",
+            "pt": "Compartilhe sua paleta, aplicação e orçamento. A Lansic retornará com uma proposta curada e orientação de produção.",
+            "de": "Teilen Sie Farbwelt, Anwendung und Budget. Lansic erstellt daraufhin einen kuratierten Vorschlag mit Material- und Produktionsberatung.",
+            "ja": "色味、用途、予算感を共有してください。Lansic が素材提案と生産ガイドを含むプランをご提案します。",
+            "zh": "告诉我们你的配色、应用场景和预算，Lansic 会提供包含材质方向与生产建议的定制方案。"
+          }
+        },
+        {
+          "id": "home-why-card-1",
+          "type": "rich-text",
+          "title": "Home why card 1",
+          "titleTranslations": {
+            "fr": "Carte accueil 1",
+            "pt": "Cartão home 1",
+            "de": "Startseite Karte 1",
+            "ja": "ホームカード1",
+            "zh": "首页卖点 1"
+          },
+          "content": "Global sampling and delivery support",
+          "contentTranslations": {
+            "fr": "Support international pour échantillons et livraison",
+            "pt": "Suporte global para amostras e entrega",
+            "de": "Weltweite Muster- und Lieferunterstützung",
+            "ja": "グローバルなサンプルと配送対応",
+            "zh": "支持全球打样与交付"
+          }
+        },
+        {
+          "id": "home-why-card-2",
+          "type": "rich-text",
+          "title": "Home why card 2",
+          "titleTranslations": {
+            "fr": "Carte accueil 2",
+            "pt": "Cartão home 2",
+            "de": "Startseite Karte 2",
+            "ja": "ホームカード2",
+            "zh": "首页卖点 2"
+          },
+          "content": "Editable collections, menus and content from admin",
+          "contentTranslations": {
+            "fr": "Collections, menus et contenus modifiables depuis l'admin",
+            "pt": "Coleções, menus e conteúdo editáveis no admin",
+            "de": "Kollektionen, Menüs und Inhalte im Admin editierbar",
+            "ja": "コレクション、メニュー、内容を管理画面で編集可能",
+            "zh": "系列、菜单与页面内容均支持所有者在后台实时编辑"
+          }
+        },
+        {
+          "id": "home-why-card-3",
+          "type": "rich-text",
+          "title": "Home why card 3",
+          "titleTranslations": {
+            "fr": "Carte accueil 3",
+            "pt": "Cartão home 3",
+            "de": "Startseite Karte 3",
+            "ja": "ホームカード3",
+            "zh": "首页卖点 3"
+          },
+          "content": "Custom mosaic programs for hospitality and residential projects",
+          "contentTranslations": {
+            "fr": "Programmes mosaïques sur mesure pour hôtellerie et résidentiel",
+            "pt": "Programas personalizados para hotelaria e residencial",
+            "de": "Individuelle Mosaikprogramme für Hospitality und Wohnen",
+            "ja": "ホテル・住宅向けのカスタムモザイク提案",
+            "zh": "面向酒店与住宅项目的定制马赛克方案"
+          }
+        },
+        {
+          "id": "home-custom-highlight",
+          "type": "rich-text",
+          "title": "Custom highlight",
+          "titleTranslations": {
+            "fr": "Accroche sur mesure",
+            "pt": "Destaque personalizado",
+            "de": "Custom-Highlight",
+            "ja": "カスタム訴求",
+            "zh": "定制亮点"
+          },
+          "content": "Design with marble, glass, shell and bespoke waterjet shapes.",
+          "contentTranslations": {
+            "fr": "Concevez avec le marbre, le verre, la nacre et des découpes waterjet sur mesure.",
+            "pt": "Projete com mármore, vidro, madrepérola e formas waterjet sob medida.",
+            "de": "Gestalten Sie mit Marmor, Glas, Perlmutt und individuellen Waterjet-Formen.",
+            "ja": "大理石、ガラス、シェル、水刀形状で空間に合わせた提案を行います。",
+            "zh": "支持大理石、玻璃、贝母以及定制水刀造型的设计开发。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-custom",
+      "name": "Custom",
+      "nameTranslations": {
+        "fr": "Sur mesure",
+        "pt": "Personalizado",
+        "de": "Custom",
+        "ja": "カスタム",
+        "zh": "定制"
+      },
+      "slug": "/custom",
+      "thumbnail": "https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=custom%20tile%20design%20landing%20page%20preview%20luxury&image_size=landscape_4_3",
+      "blocks": [
+        {
+          "id": "custom-hero-title",
+          "type": "hero",
+          "title": "Custom",
+          "titleTranslations": {
+            "fr": "Sur mesure",
+            "pt": "Personalizado",
+            "de": "Custom",
+            "ja": "カスタム",
+            "zh": "定制"
+          },
+          "content": "Bespoke mosaic development for signature interiors.",
+          "contentTranslations": {
+            "fr": "Développement de mosaïques sur mesure pour des intérieurs de caractère.",
+            "pt": "Desenvolvimento de mosaicos sob medida para interiores marcantes.",
+            "de": "Individuelle Mosaikentwicklung für charakterstarke Innenräume.",
+            "ja": "印象的な空間のための、オーダーメイドモザイク開発。",
+            "zh": "面向高辨识度空间的定制马赛克开发服务。"
+          }
+        },
+        {
+          "id": "custom-hero-body",
+          "type": "rich-text",
+          "title": "Service intro",
+          "titleTranslations": {
+            "fr": "Présentation du service",
+            "pt": "Introdução do serviço",
+            "de": "Serviceeinführung",
+            "ja": "サービス紹介",
+            "zh": "服务介绍"
+          },
+          "content": "Lansic supports material direction, shape development, visual references, sampling and production planning for hospitality, residential and commercial projects.",
+          "contentTranslations": {
+            "fr": "Lansic accompagne le choix matière, le développement de formes, les références visuelles, l'échantillonnage et la planification de production.",
+            "pt": "A Lansic oferece suporte em materiais, desenho de formas, referências visuais, amostras e planejamento de produção.",
+            "de": "Lansic unterstützt bei Materialauswahl, Formentwicklung, Referenzbildern, Bemusterung und Produktionsplanung.",
+            "ja": "素材提案、形状開発、参考イメージ、サンプル、量産計画まで一貫して支援します。",
+            "zh": "Lansic 可协助材质方向、形状开发、视觉参考、打样及量产规划。"
+          }
+        },
+        {
+          "id": "custom-feature-1",
+          "type": "rich-text",
+          "title": "Custom feature 1",
+          "titleTranslations": {
+            "fr": "Atout sur mesure 1",
+            "pt": "Destaque custom 1",
+            "de": "Custom-Merkmal 1",
+            "ja": "カスタム特徴1",
+            "zh": "定制能力 1"
+          },
+          "content": "Material mix: marble, glass, shell, ceramic and metal.",
+          "contentTranslations": {
+            "fr": "Matériaux: marbre, verre, nacre, céramique et métal.",
+            "pt": "Materiais: mármore, vidro, madrepérola, cerâmica e metal.",
+            "de": "Materialmix: Marmor, Glas, Perlmutt, Keramik und Metall.",
+            "ja": "素材: 大理石、ガラス、シェル、セラミック、金属。",
+            "zh": "材质可选: 大理石、玻璃、贝母、陶瓷与金属。"
+          }
+        },
+        {
+          "id": "custom-feature-2",
+          "type": "rich-text",
+          "title": "Custom feature 2",
+          "titleTranslations": {
+            "fr": "Atout sur mesure 2",
+            "pt": "Destaque custom 2",
+            "de": "Custom-Merkmal 2",
+            "ja": "カスタム特徴2",
+            "zh": "定制能力 2"
+          },
+          "content": "Pattern engineering from simple blocks to waterjet artwork.",
+          "contentTranslations": {
+            "fr": "Développement de motifs du bloc simple aux découpes waterjet.",
+            "pt": "Desenvolvimento de padrões de blocos simples a waterjet.",
+            "de": "Musterentwicklung von einfachen Formen bis zu Waterjet-Motiven.",
+            "ja": "シンプルな形から水刀切割まで図案開発に対応。",
+            "zh": "支持从基础拼块到复杂水刀拼花的图案开发。"
+          }
+        },
+        {
+          "id": "custom-feature-3",
+          "type": "rich-text",
+          "title": "Custom feature 3",
+          "titleTranslations": {
+            "fr": "Atout sur mesure 3",
+            "pt": "Destaque custom 3",
+            "de": "Custom-Merkmal 3",
+            "ja": "カスタム特徴3",
+            "zh": "定制能力 3"
+          },
+          "content": "Global project support with sampling and shipping coordination.",
+          "contentTranslations": {
+            "fr": "Support global avec échantillons et coordination logistique.",
+            "pt": "Suporte global com amostras e coordenação de envio.",
+            "de": "Weltweite Projektunterstützung mit Muster- und Versandkoordination.",
+            "ja": "サンプル手配と輸送調整を含むグローバル対応。",
+            "zh": "提供打样、运输协调等全球项目支持。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-gallery",
+      "name": "Gallery",
+      "nameTranslations": {
+        "fr": "Galerie",
+        "pt": "Galeria",
+        "de": "Galerie",
+        "ja": "ギャラリー",
+        "zh": "案例图库"
+      },
+      "slug": "/gallery",
+      "thumbnail": "https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=mosaic%20gallery%20page%20luxury%20preview&image_size=landscape_4_3",
+      "blocks": [
+        {
+          "id": "gallery-hero-title",
+          "type": "hero",
+          "title": "Gallery",
+          "titleTranslations": {
+            "fr": "Galerie",
+            "pt": "Galeria",
+            "de": "Galerie",
+            "ja": "ギャラリー",
+            "zh": "案例图库"
+          },
+          "content": "Installed inspiration and curated project references.",
+          "contentTranslations": {
+            "fr": "Inspirations posées et références de projets sélectionnées.",
+            "pt": "Inspirações aplicadas e referências de projetos selecionados.",
+            "de": "Inspirierende Anwendungen und kuratierte Projektbeispiele.",
+            "ja": "施工事例と厳選プロジェクトの参考イメージ。",
+            "zh": "展示落地案例与精选项目灵感。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-contact",
+      "name": "Contact",
+      "nameTranslations": {
+        "fr": "Contact",
+        "pt": "Contato",
+        "de": "Kontakt",
+        "ja": "お問い合わせ",
+        "zh": "联系我们"
+      },
+      "slug": "/contact",
+      "thumbnail": "https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=contact%20page%20luxury%20tile%20brand%20preview&image_size=landscape_4_3",
+      "blocks": [
+        {
+          "id": "contact-hero-title",
+          "type": "hero",
+          "title": "Contact",
+          "titleTranslations": {
+            "fr": "Contact",
+            "pt": "Contato",
+            "de": "Kontakt",
+            "ja": "お問い合わせ",
+            "zh": "联系我们"
+          },
+          "content": "Start a tile conversation with our team.",
+          "contentTranslations": {
+            "fr": "Échangez avec notre équipe au sujet de votre projet carrelage.",
+            "pt": "Converse com nossa equipe sobre seu projeto de revestimento.",
+            "de": "Sprechen Sie mit unserem Team über Ihr Fliesenprojekt.",
+            "ja": "タイル計画について、ぜひ私たちにご相談ください。",
+            "zh": "欢迎与我们的团队沟通你的瓷砖项目需求。"
+          }
+        },
+        {
+          "id": "contact-details",
+          "type": "rich-text",
+          "title": "Contact details",
+          "titleTranslations": {
+            "fr": "Coordonnées",
+            "pt": "Detalhes de contato",
+            "de": "Kontaktdaten",
+            "ja": "連絡先情報",
+            "zh": "联系信息"
+          },
+          "content": "Email: hello@lansictiles.com\nWhatsApp: +86 180 0000 0000\nOffice hours: Monday - Friday / 09:00 - 18:00 CST",
+          "contentTranslations": {
+            "fr": "E-mail : hello@lansictiles.com\nWhatsApp : +86 180 0000 0000\nHeures de bureau : lundi - vendredi / 09:00 - 18:00 CST",
+            "pt": "E-mail: hello@lansictiles.com\nWhatsApp: +86 180 0000 0000\nHorário de atendimento: segunda a sexta / 09:00 - 18:00 CST",
+            "de": "E-Mail: hello@lansictiles.com\nWhatsApp: +86 180 0000 0000\nBürozeiten: Montag - Freitag / 09:00 - 18:00 CST",
+            "ja": "メール: hello@lansictiles.com\nWhatsApp: +86 180 0000 0000\n営業時間: 月曜 - 金曜 / 09:00 - 18:00 CST",
+            "zh": "邮箱：hello@lansictiles.com\nWhatsApp：+86 180 0000 0000\n办公时间：周一至周五 / 09:00 - 18:00 CST"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-about",
+      "name": "About Us",
+      "nameTranslations": {
+        "fr": "À propos",
+        "pt": "Sobre nós",
+        "de": "Über uns",
+        "ja": "会社情報",
+        "zh": "关于我们"
+      },
+      "slug": "/about",
+      "thumbnail": "https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=about%20us%20page%20luxury%20tile%20brand%20preview&image_size=landscape_4_3",
+      "blocks": [
+        {
+          "id": "about-hero-title",
+          "type": "hero",
+          "title": "About Us",
+          "titleTranslations": {
+            "fr": "À propos",
+            "pt": "Sobre nós",
+            "de": "Über uns",
+            "ja": "会社情報",
+            "zh": "关于我们"
+          },
+          "content": "Lansic Tiles curates mosaic surfaces with material depth and project discipline.",
+          "contentTranslations": {
+            "fr": "Lansic Tiles conçoit des surfaces mosaïques avec exigence matière et rigueur projet.",
+            "pt": "A Lansic Tiles desenvolve superfícies em mosaico com profundidade material e disciplina de projeto.",
+            "de": "Lansic Tiles kuratiert Mosaikoberflächen mit Materialtiefe und Projektdisziplin.",
+            "ja": "Lansic Tiles は素材の質感とプロジェクト精度を大切にしたモザイクを提案します。",
+            "zh": "Lansic Tiles 专注于兼具材质深度与项目落地能力的马赛克表面系统。"
+          }
+        },
+        {
+          "id": "about-body",
+          "type": "rich-text",
+          "title": "Brand story",
+          "titleTranslations": {
+            "fr": "Histoire de marque",
+            "pt": "História da marca",
+            "de": "Markengeschichte",
+            "ja": "ブランド紹介",
+            "zh": "品牌介绍"
+          },
+          "content": "We combine material sourcing, pattern refinement and cross-border delivery to support designers, builders and homeowners seeking premium mosaic surfaces.\n\nOur catalog spans marble, glass, shell and custom waterjet compositions, with flexible support for bespoke hospitality and residential projects.",
+          "contentTranslations": {
+            "fr": "Nous combinons sourcing matière, affinage des motifs et livraison internationale pour accompagner designers, promoteurs et particuliers.\n\nNotre catalogue couvre marbre, verre, nacre et compositions waterjet personnalisées.",
+            "pt": "Combinamos sourcing de materiais, refinamento de padrões e entrega internacional para apoiar designers, construtores e clientes finais.\n\nNosso catálogo inclui mármore, vidro, madrepérola e composições waterjet personalizadas.",
+            "de": "Wir verbinden Materialbeschaffung, Musterentwicklung und internationale Lieferung für Designer, Bauunternehmen und private Auftraggeber.\n\nUnser Sortiment umfasst Marmor, Glas, Perlmutt und individuelle Waterjet-Kompositionen.",
+            "ja": "素材調達、パターン調整、越境配送を組み合わせ、デザイナーや施工会社、住宅案件を支援します。\n\n大理石、ガラス、シェル、水刀切割の特注構成まで幅広く対応します。",
+            "zh": "我们结合材料 sourcing、图案优化与跨境交付，服务设计师、工程方与高端住宅客户。\n\n产品覆盖大理石、玻璃、贝母以及定制水刀拼花等多种方向。"
+          }
+        }
+      ]
+    }
+  ],
+  "emailTemplates": [
+    {
+      "id": "mail-order-confirmation",
+      "name": "Order Confirmation",
+      "subject": "Your Lansic Tiles order has been received",
+      "body": "Thank you for your order. We are preparing your tiles and will send tracking details soon."
+    },
+    {
+      "id": "mail-shipping",
+      "name": "Shipping Notification",
+      "subject": "Your Lansic Tiles order is on the way",
+      "body": "Your order has shipped. Use your tracking number to follow the latest delivery progress."
+    }
+  ],
+  "emailLogs": [
+    {
+      "id": "mail-log-1782051311212-customer",
+      "templateId": "mail-order-confirmation",
+      "orderId": "order-1009",
+      "fromEmail": "orders@lansictiles.test",
+      "replyToEmail": "support@lansictiles.test",
+      "toEmail": "qa-email@example.com",
+      "subject": "Your Lansic Tiles order has been received (LT-1009)",
+      "body": "Thank you for your order. We are preparing your tiles and will send tracking details soon.\n\nOrder No: LT-1009\nTotal: USD 257.00",
+      "status": "sent",
+      "createdAt": "2026-06-21T14:15:11.212Z"
+    },
+    {
+      "id": "mail-log-1782051311212-admin",
+      "templateId": "mail-admin-order-notification",
+      "orderId": "order-1009",
+      "fromEmail": "orders@lansictiles.test",
+      "replyToEmail": "support@lansictiles.test",
+      "toEmail": "ops@lansictiles.test",
+      "subject": "New Lansic order LT-1009",
+      "body": "New order received.\n\nOrder No: LT-1009\nCustomer: QA Email Buyer\nEmail: qa-email@example.com\nTotal: USD 257.00",
+      "status": "sent",
+      "createdAt": "2026-06-21T14:15:11.212Z"
+    }
+  ]
+}

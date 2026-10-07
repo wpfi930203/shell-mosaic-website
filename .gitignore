@@ -1,2 +1,4 @@
+# local IDE / agent artifacts (not part of the site source)
 /.trae
+/.workbuddy/
 /write-test.txt
